@@ -33,6 +33,16 @@
         <link href="/css/custom.css" rel="stylesheet" type="text/css" />
         <link href="/css/green-haze.min.css" rel="stylesheet" type="text/css" />
         <!-- END THEME STYLES -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98784726-19"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-98784726-19');
+        </script>
+    </head>
     <!-- END HEAD -->
     <!-- BEGIN BODY -->
     <body ng-controller="MainController" class="page-header-fixed page-on-load" ng-class="{'page-content-white': settings.layout.pageContentWhite,'page-container-bg-solid': settings.layout.pageBodySolid}">
